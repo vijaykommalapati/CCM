@@ -1,0 +1,8 @@
+<div ng-controller="HomeCtrl">
+    <h3>This is Home Page</h3>
+    TestData={{TestData}}
+    <hr/>
+    <view-selector host="this" module-path="{{modulePath}}" params="model.routeParams">
+        <view route="" path="views/welcome.html"></view>
+    </view-selector>
+</div>

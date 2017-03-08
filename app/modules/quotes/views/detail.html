@@ -1,0 +1,20 @@
+<div ng-controller="QuotesDetailCtrl" ng-init="showDetails()">
+    <div >
+        <div  >
+            <h4>Quote Details:</h4>
+            <div>
+                <span>Quote: "{{results[0].q}}"</span>
+                <br />
+                <span>Author: {{results[0].author}}</span>
+            </div>
+        </div>
+        <div class="col-md-8">
+            <br/>
+        </div>
+        <div class="col-md-8">
+            <a href="{{href('/quotes')}}">
+                <span>Back to List</span>
+            </a>
+        </div>
+    </div>
+</div>

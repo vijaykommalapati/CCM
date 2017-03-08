@@ -1,0 +1,7 @@
+<div ng-controller="QuotesCtrl">
+
+    <view-selector host="this" module-path="{{modulePath}}" params="model.routeParams">
+        <view route="" path="views/list.html"></view>
+        <view route="detail/:id" path="views/detail.html"></view>
+    </view-selector>
+</div>

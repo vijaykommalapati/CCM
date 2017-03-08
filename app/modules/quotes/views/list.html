@@ -1,0 +1,12 @@
+<div ng-controller="QuotesListCtrl">
+    <div class="col-md-12">
+        <div  class="col-md-8">
+            <h4>Quotes:</h4>
+            <div ng-repeat="quote in quotes">
+                <a href="{{href(quote.details)}}">
+                    <span>{{quote.q}}</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>

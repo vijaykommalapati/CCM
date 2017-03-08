@@ -1,0 +1,26 @@
+﻿{
+  "/": {
+    "title": "Home",
+    "layout": "layouts/default",
+    "theme": "themes/default",
+    "sections": {
+        "main":"modules/home"
+    }
+  },
+    "/quotes":{
+        "title":"Quotes",
+        "layout": "layouts/default",
+        "theme": "themes/default",
+        "sections":{
+            "main":"modules/quotes"
+        }
+    },
+    "/projects":{
+        "title":"Projects",
+        "layout": "layouts/default",
+        "theme": "themes/default",
+        "sections":{
+            "main":"modules/projects"
+        }
+    }
+}
