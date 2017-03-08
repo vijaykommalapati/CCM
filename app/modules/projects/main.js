@@ -14,6 +14,7 @@
             {
                 app.publish('moduleReady', modulePath);
                 alert(yes);
+                 alert(yes);
             }
     );
 }(window.app));
