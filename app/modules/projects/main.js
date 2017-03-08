@@ -13,6 +13,7 @@
             .done(function ()
             {
                 app.publish('moduleReady', modulePath);
+                alert(yes);
             }
     );
 }(window.app));
