@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package >
+    <metadata>
+        <id>#ID#</id>
+        <version>#VERSION#</version>
+        <authors>#AUTHORS#</authors>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>#DESCRIPTION#</description>
+    </metadata>
+
+    <files>
+        <file src="package.json" target="package.json" />
+        <file src="app.js" target="app.js" />
+        <file src="web.config" target="web.config" />
+        <file src="newrelic.js" target="newrelic.js" />
+        <file src="app\**\*" target="app" />
+        <file src="config\**\*" target="config" />
+        <file src="node_modules\**\*" target="node_modules" />
+    </files>
+</package>
